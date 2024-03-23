@@ -1,0 +1,177 @@
+
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{ragged2e} % for \justify command
+
+\begin{document}
+\title{Annotated Bibliography \\ Utilizing Machine Learning for High Frequency Algorithmic Trading}
+\author{Masixole Boya (Student number: 1869204)}
+\date{March 24, 2024}
+\maketitle
+
+
+
+\section{Peng, Y.L. and Lee, W.P., 2021. Data selection to avoid overfitting for foreign exchange intraday trading with machine learning. Applied Soft Computing, 108, p.107461.}
+    \justify
+    \subsection*{Aim}
+    To propose the 'path loss', a new metric that aims to resolve the issues of overfitting in algorithmic trading in the foreign exchange (FOREX) market, and the issue of deciding which currency pair to pick and with what frequency.
+    
+    
+    \subsection*{Style/Type:}Journal article\\
+    
+    \subsection*{Cross references}
+    In algorithmic trading, a number of techniques have been put forward, such as time-series prediction through the use of autoregression (AR), moving average (MA), and autoregressive integrated moving average (ARIMA) and even neural networks. Since these have been shown to suffer from overfitting, ensemble learning techniques - which combine multiple weak learners to make a strong final learner, have been proven to be the better option. There still remains the second problem - choosing currency pairs and frequency. This paper brings forth a metric, the "path loss", that aims to address these two problems efficiently.
+    
+    \subsection*{Summary}
+    The paper begins by introducing three key metrics for evaluating trading performance: accuracy, in-sample return, and path loss. These metrics are designed to measure the effectiveness of models in classifying data and capturing returns while minimizing overfitting. The selection process for trading currency pairs and frequencies is guided by maximizing accuracy and in-sample return, while minimizing path loss to mitigate the impact of noise. The focus then shifts to the training and testing of machine learning models using per-minute data collected from Dukascopy. The input features utilized include spreads, price changes, and volume differentials. Four popular machine learning models are employed, and their performance is assessed through a series of experiments, with special attention on fine-tuning hyperparameters to optimize trading outcomes. The moving window technique is employed to train and test models iteratively, with in-sample returns serving as a key benchmark for model evaluation.
+    
+    The paper presents a comprehensive analysis of various trading strategies, machine learning models, and objective functions. The comparison of trading strategies demonstrates that those treating FX trading as a Markov Decision Process are superior. It also evaluates the effectiveness of different metrics in selecting trading currency pairs and frequencies, where the path loss metric is presented as a robust indicator for optimizing performance. The path length is as follows:
+
+    \begin{equation}
+    \text{Path loss}_{i,j} = \text{accuracy}_{i,j} \log\left(\frac{\text{NISR}_{i,j}}{\text{profitable ratio}_{i,j}}\right)
+    \end{equation}
+    where:\\
+    - $\text{Path loss}_{i,j}$ represents the path loss for currency pair $i$ at trading frequency $j$.\\
+    - $\text{accuracy}_{i,j}$ is the accuracy of the model for currency pair $i$ at trading frequency $j$.\\
+    - $\text{NISR}_{i,j}$ denotes the normalized in-sample return for currency pair $i$ at trading frequency $j$.\\
+    - $\text{profitable ratio}_{i,j}$ indicates the profitable ratio for currency pair $i$ at trading frequency $j$.\\\\
+
+
+\section{Ilić, V. and Brtka, V., 2018. Evaluation of algorithmic strategies for trading on foreign exchange market.}
+    \justify
+    \setlength{\parindent}{1em} % Set indentation to 1em
+    \subsection*{Aim}
+    The aim is to firstly take a brief look at the Foreign Exchange market and secondly, to look at algorithmic strategies for automated trading while advising on strategy development, and performance evaluation.\\\\
+    
+    \subsection*{Style/Type}
+    Journal article\\\\
+    
+    \subsection*{Cross references}
+    The paper brings together prior work that would otherwise be 'scattered', on strategy development and performance evaluation into one place to provide a comprehensive outline of the meaning, process, steps and recommendations on trading strategy development.\\\\
+    
+    \subsection*{Summary}
+    The paper starts by highlighting the major currencies and currency pairs involved in the Foreign Exchange (Forex) market. Two basic approaches to analyzing the currency market: fundamental analysis and technical analysis, are also mentioned.
+    
+    It then goes into explaining that fundamental analysis focuses on the causes of price movements, while technical analysis studies the price movements themselves. Technical analysis is based on three axioms: market movement considers everything, prices move with trends, and history repeats itself. A number of technical indicators used for market analysis are also mentioned.
+    
+    Algorithmic trading strategies are described as sets of instructions guiding trading decisions based on technical analysis, where its components should include entry and exit rules, risk management, and position sizing. Expert Advisors (EAs), which are programs developed for market analysis and automatic trading are also mentioned.
+    
+    A structured approach for developing and evaluating trading strategies is given as formulation.\\\\
+        
+\section{Moosa, I., 2015. The regulation of high-frequency trading: A pragmatic view. Journal of Banking Regulation, 16, pp.72-88.}
+    \justify
+    \setlength{\parindent}{1em} % Set indentation to 1em
+    \subsection*{Aim}
+    To explore arguments that support and those against the regulation of High Frequency Trading (HFT), while categorizing HFT strategies.\\\\
+    
+    \subsection*{Style/Type}
+    Journal article\\\\
+    
+    \subsection*{Cross references}
+    The paper considers several concerns raised by other works on the impact of HFT on market stability, price discovery, volatility, liquidity, and fairness. For instance, it challenges the notion raised by previous writes that HFT worsens market volatility or leads to a loss of liquidity. By providing evidence and arguments, the paper suggests that HFT does not necessarily distort price discovery mechanisms or enhance market volatility, as have been claimed in previous works. Instead, it argues that HFT can contributes positively to market linkages, liquidity provision, and price efficiency, going against the negative narratives presented by some prior research.\\\\
+    This paper acknowledges the risks associated with HFT, such as the potential for abusive practices and technological malfunctions, but also stresses the benefits it can bring to market functioning. Rather than condemning HFT outright, regulatory efforts should target specific abusive practices, such as front running and quote manipulation, rather than restricting the entire spectrum of high-frequency trading activities.
+    
+    \subsection*{Summary}
+    The paper examines common criticisms against HFT and challenges their validity. It contends that HFT can enhance market efficiency by quickly processing new information and contributing to price discovery across various trading venues. Moreover, the paper disputes claims that HFT traders gain unfair advantages or engage solely in short-term speculation, asserting that they play a crucial role in providing liquidity and facilitating trading for long-term investors. By highlighting the positive aspects of HFT, such as improved market linkages and price efficiency, the paper aims to present a more nuanced understanding of its impact on financial markets.
+
+    In terms of regulations, the paper advocates for targeted measures to address specific risks associated with HFT, such as abusive practices and technological malfunctions. It suggests that regulatory efforts should focus on preventing market abuse while preserving innovation and competition in financial markets. 
+
+
+    
+\section{Vo, A. and Yost-Bremm, C., 2018. A high-frequency algorithmic trading strategy for cryptocurrency. Journal of Computer Information Systems.}
+    \justify
+    \setlength{\parindent}{1em} % Set indentation to 1em
+    \subsection*{Aim}
+    To develop a HFT strategy for Bitcoin by utilizing machine learning algorithms and financial indicators derived from minute-level price data.
+    The objectives are to pre-process data from cryptocurrency exchanges, transform the data into financial indicators, and train a trading model using machine learning techniques.\\\\
+    
+    \subsection*{Style/Type}
+    Journal article\\\\
+    
+    \subsection*{Cross references}
+    The paper acknowledges the existing literature, specifically studies on the speculative nature of cryptocurrency markets, the use of machine learning in high-frequency trading, and the behavioral biases of investors in financial markets. However, the paper appears to take a unique approach by combining machine learning algorithms with financial indicators specifically for trading Bitcoin in high-frequency trading scenarios. It aims to contribute by presenting a novel trading algorithm tailored to the characteristics of the cryptocurrency market. 
+    
+  \subsection*{Summary}
+
+    The paper explores the application of machine learning (ML) algorithms in the cryptocurrency market - Bitcoin. Its main contribution is the development of a high-frequency trading strategy tailored specifically for Bitcoin trading. The Design Science Research (DSR) methodology is utilized to present and evaluate the trading algorithm. It pre-processes data from various exchanges and transform financial indicators using Random Forest (RF) algorithms to train the trading model. The paper then compares the performance of the RF model with a Deep Learning (DL) model. It goes on to evaluate the strategy against foreign currency exchanges, particularly the Japanese Yen (JPY) to U.S. Dollar (USD) exchange rate.
+    
+    The technical indicators for the HFT strategy are:\\\\ 
+    
+    \textbf{Relative Strength Index (RSI):}
+    measures the movement speed of changing price and is calculated using the formula:
+    
+    \[
+    RSI = 100 - \frac{100}{1 + RS_p}
+    \]
+    
+    where \(RS\) is the ratio between the average gain and the average loss over a certain period \(p\). RSI ranges from 0 to 100, with values below 30 indicating oversold conditions and values above 70 indicating overbought conditions.\\\\
+    
+    \textbf{Stochastic Oscillator:} measures momentum movement of price changes and is calculated as:
+    
+    \[
+    SO = 100 \times \frac{C - L_p}{H_p - L_p}
+    \]
+    
+    where \(C\) is the current closing price, \(H\) and \(L\) are respectively the highest and lowest price over a period \(p\). Stochastic Oscillator values below 20 indicate overselling, while values above 80 indicate overbuying.\\\\
+    
+    \textbf{Williams \%R:}
+    measures the movement of stock price relative to the spread between high and low prices, and is calculated by:
+    
+    \[
+    \%R = \frac{H_p - C}{H_p - L_p} \times (-100)
+    \]
+    
+    Williams \%R ranges from 0 to -100, with values below -80 indicating oversold conditions and values above -20 indicating overbought conditions.\\\\
+    
+    \textbf{Moving Average Convergence Divergence (MACD):}
+    provides trend and momentum signals based on exponential smoothing moving averages. It is calculated using the formulas:
+    
+    \[
+    \text{MACD} = EMA_p(C) - EMA_q(C)
+    \]
+    
+    \[
+    \text{Signal Line} = EMA_r(\text{MACD})
+    \]
+    
+    where \(EMA\) denotes exponential smoothing average, \(C\) is the closing price, and \(p\), \(q\), and \(r\) represent different periods.\\\\
+    
+    \textbf{On-Balance Volume (OBV):} a cumulative indicator based on volume traded, and its calculation depends on the change in closing price and volume traded.\\\\
+
+    
+\section{Marudulu, L., 2020. Portfolio optimisation approaches towards investment in the forex market (Doctoral dissertation, North-West University (South Africa)).}
+    \subsection*{Aim}
+    To propose and evaluate a portfolio optimization and risk management approach for the Forex market. The primary objectives of the paper are to go through the following steps to achieve the aim: Fitting Forecasting Models, Constructing Efficient Frontiers, Risk Reduction, Comparing Optimization Models, Backtesting Analysis.
+    \\\\
+    
+    \subsection*{Style/Type}
+    Doctoral (Academic) dissertation
+    \\\\
+    
+    \subsection*{Cross References}
+    The study presents a tailored optimization model for, specifically, the forex makert rather than for any other financial markets as prior works have tended towards.
+    \\\\
+    \subsection*{Summary}
+     The study focuses on portfolio optimization models tailored for currency trading, with specific attention to the Markowitz (M-V), semi-mean-absolute deviation (SMAD), and conditional value-at-risk (CVaR) models. To begin, the study adopts several key assumptions, including the trader's risk aversion, operation on a standard Forex trading account, and the use of a 1:1 leverage. Currency pairs are analyzed in a form where the USD serves as the quote currency, simplifying the analysis. The methodology involves defining terms such as capital amount invested ($C$), proportion of capital invested in each security ($w_i$), and unit price of securities ($P_{it}$). The key concept of returns ($R_{it}$) and its components such as mean ($\mu_i$), variance ($\sigma_i^2$), and covariance ($\sigma_{ij}$) are established. The research also introduces the performance function $F_{\alpha}(w, \gamma)$, representing the risk measure associated with each model. Theorems and proofs are provided to elucidate the mathematical underpinnings of the optimization process, including the convexity and differentiability of the performance function $F_{\alpha}(w, \gamma)$. Notably, the study utilizes formulations in convex programming to address the optimization problem effectively.\\\\
+    The study analyses portfolio optimization strategies in the Forex market, for risk mitigation and maximizing profitability. Using historical Forex data and mathematical modeling, the research demonstrates the effectiveness of forecast-based optimization models, particularly the SMAD portfolio, in achieving these objectives. The SMAD portfolio outperforms traditional Markowitz (M-V) and conditional value-at-risk (CVaR) models, showcasing superior risk reduction and profitability over the long term.\\\\
+
+
+
+\section{Ayitey Junior, M., Appiahene, P., Appiah, O. and Bombie, C.N., 2023. Forex market forecasting using machine learning: Systematic Literature Review and meta-analysis. Journal of Big Data, 10(1), p.9.}
+    \subsection*{Aim}
+    
+    The aim is to, through a systematic literature review (SLR), understand and summarize the current algorithms and models used for forex market forecasting with machine learning techniques.\\\\
+    
+    \subsection{Type/Style}
+    Journal article
+    \subsection{Cross References}
+    The paper seeks to gather information multiple sources, throughout a particular period to pack into one place and summarize the trend across these sources.
+    \subsection{Summary}
+    The aim of this study is to provide an overview of machine learning models and their utilization in forecasting trends in the FX market. By conducting a Systematic Literature Review (SLR), this research examines 60 publications spanning from 2010 to 2021. The analysis considers two main aspects: the design of evaluation techniques and a meta-analysis of the performance of machine learning models using various evaluation metrics.\\\\
+    
+    The analysis of articles reveals a diverse landscape of machine learning methodologies employed in forecasting. Notably, Long Short-Term Memory Neural Network (LSTM) and Artificial Neural Network (ANN) emerged as the most prevalent algorithms, each utilized by 19 primary studies. Other algorithms such as Convolutional Neural Network, Support Vector Machine, and Gated Recurrent Unit (GRU) were also explored. The most prevalent of major currency pair was EUR/USD, in primary studies. Evaluation techniques predominantly relied on percentage split validation, while metrics such as Mean Absolute Error (MAE) and Root Mean Square Error (RMSE) were commonly used to assess model performance. 
+    
+    
+
+
+\end{document}
