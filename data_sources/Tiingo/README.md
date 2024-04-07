@@ -1,4 +1,4 @@
-# Project README
+
 
 ## Project Overview
 This project aims to train a machine learning model using intraday financial data retrieved from the Tiingo API. The model is trained to predict future prices based on historical data. The project involves several key steps, including data retrieval, analysis, preprocessing, model training, and evaluation.
