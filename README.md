@@ -9,8 +9,8 @@
 
 
 
-## - 2. <u>__MetaTrader5 *API*__</u>
-## - 3. <u>__yfinance *package*__</u>
+## 2. <u>__MetaTrader5 *API*__</u>
+## 3. <u>__yfinance *package*__</u>
 #####    - Returns stock data with no problems but struggles to return forex data
 
 ##### Recommended Beginner's Introduction into FOREX trading:
