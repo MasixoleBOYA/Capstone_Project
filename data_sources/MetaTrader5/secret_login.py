@@ -1,12 +1,10 @@
 class Secret_Login:
     login_key = 10002149264
-    login_key2 = 5024479225
-    login_key3 = 10002158592
     server = 'MetaQuotes-Demo'
     username = 'MasixoleBoya'
     password = '3BV82Vxw'
     email = 'tshollyboya00@gmail.com'
-
+    
 
 class IC_Markets_Login:
     trading_Platform = 'MT5'
