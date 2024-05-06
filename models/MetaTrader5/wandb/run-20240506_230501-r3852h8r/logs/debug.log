@@ -1,0 +1,21 @@
+2024-05-06 23:05:01,621 INFO    MainThread:29132 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-05-06 23:05:01,623 INFO    MainThread:29132 [wandb_setup.py:_flush():76] Configure stats pid to 29132
+2024-05-06 23:05:01,623 INFO    MainThread:29132 [wandb_setup.py:_flush():76] Loading settings from C:\Users\tshol\.config\wandb\settings
+2024-05-06 23:05:01,623 INFO    MainThread:29132 [wandb_setup.py:_flush():76] Loading settings from c:\Users\tshol\Desktop\Git_Repos\Capstone_Project\models\MetaTrader5\wandb\settings
+2024-05-06 23:05:01,624 INFO    MainThread:29132 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-05-06 23:05:01,624 INFO    MainThread:29132 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-06 23:05:01,624 INFO    MainThread:29132 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-05-06 23:05:01,624 INFO    MainThread:29132 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-06 23:05:01,626 INFO    MainThread:29132 [wandb_init.py:_log_setup():521] Logging user logs to c:\Users\tshol\Desktop\Git_Repos\Capstone_Project\models\MetaTrader5\wandb\run-20240506_230501-r3852h8r\logs\debug.log
+2024-05-06 23:05:01,626 INFO    MainThread:29132 [wandb_init.py:_log_setup():522] Logging internal logs to c:\Users\tshol\Desktop\Git_Repos\Capstone_Project\models\MetaTrader5\wandb\run-20240506_230501-r3852h8r\logs\debug-internal.log
+2024-05-06 23:05:01,626 INFO    MainThread:29132 [wandb_init.py:init():561] calling init triggers
+2024-05-06 23:05:01,626 INFO    MainThread:29132 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.001, 'epochs': 20, 'batch_size': 100, 'loss_function': 'mean_squared_error', 'architecture': 'LSTM'}
+2024-05-06 23:05:01,626 INFO    MainThread:29132 [wandb_init.py:init():586] re-initializing run, found existing run on stack: lswcd1uf
+2024-05-06 23:05:01,630 INFO    MainThread:29132 [wandb_run.py:_finish():2064] finishing run masixoleboya/first_keras_intergration/lswcd1uf
+2024-05-06 23:05:01,633 ERROR   MainThread:29132 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2024-05-06 23:05:01,633 INFO    MainThread:29132 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-05-06 23:05:01,633 INFO    MainThread:29132 [wandb_init.py:_jupyter_teardown():449] cleaning up jupyter logic
+2024-05-06 23:05:01,633 INFO    MainThread:29132 [wandb_run.py:_atexit_cleanup():2304] got exitcode: 0
+2024-05-06 23:05:01,634 INFO    MainThread:29132 [wandb_run.py:_restore():2287] restore
+2024-05-06 23:05:01,634 INFO    MainThread:29132 [wandb_run.py:_restore():2293] restore done
