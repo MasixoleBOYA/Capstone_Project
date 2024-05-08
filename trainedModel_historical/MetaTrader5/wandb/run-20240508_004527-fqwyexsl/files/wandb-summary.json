@@ -1,0 +1,1 @@
+{"epoch/loss": 0.002914816839620471, "epoch/mean_absolute_error": 0.027853038161993027, "epoch/val_loss": 0.0009474549442529678, "epoch/val_mean_absolute_error": 0.02057076059281826, "epoch/epoch": 19, "_timestamp": 1715147692.6514788, "_runtime": 25764.892097711563, "_step": 19}

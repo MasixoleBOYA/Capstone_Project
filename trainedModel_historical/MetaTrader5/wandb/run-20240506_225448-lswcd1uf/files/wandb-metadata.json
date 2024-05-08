@@ -1,0 +1,44 @@
+{
+    "os": "Windows-11-10.0.22621-SP0",
+    "python": "3.12.2",
+    "heartbeatAt": "2024-05-06T20:54:51.625163",
+    "startedAt": "2024-05-06T20:54:48.330820",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/MasixoleBOYA/Capstone_Project.git",
+        "commit": "4dc1f40a28983d48862750b30d610d977f6a4555"
+    },
+    "email": "tshollyboya00@gmail.com",
+    "root": "C:/Users/tshol/Desktop/Git_Repos/Capstone_Project",
+    "host": "LAPTOP-L1CDOHN9",
+    "username": "tshol",
+    "executable": "c:\\USERS\\TSHOL\\APPDATA\\LOCAL\\PROGRAMS\\PYTHON\\PYTHON312\\PYTHON.EXE",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 1808.0,
+        "min": 0.0,
+        "max": 2000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1808.0,
+            "min": 0.0,
+            "max": 2000.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 952.5139808654785,
+            "used": 120.58717727661133
+        }
+    },
+    "memory": {
+        "total": 15.403488159179688
+    }
+}
