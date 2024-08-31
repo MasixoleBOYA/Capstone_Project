@@ -35,3 +35,9 @@ This project aims to train a machine learning model using intraday financial dat
 - Feel free to customize the code or extend the project with additional features or analyses.
 
 For more detailed information on each step and code snippets, refer to the sections above.
+
+## About the __Tiingo__ API
+#####    - Gives minimum of 1 minute data
+#####    - Responds with JSON data
+#####    - Starts from 2020
+#####    - Seems to return a limited amount of historical data
