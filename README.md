@@ -14,29 +14,6 @@
 
 ---
 
-<!-- ## Folder Structure
-
-### `indicators`
-This folder contains the files for the calculated indicators. More detailed information can be found in the folder.
-
-### `login_info`
-This folder contains login credentials for the demo trading accounts. *Real trading accounts login credentials will be hosted in a seperate private repository, for security, which will then be linked to this repository.*
-
-### `real_time_WebSocket`
-This folder contains files for pulling real-time data using WebSockets in Python with the Tiingo API. More detailed information can be found in the folder.
-
-### `trainedModel_historical`
-This folder contains files for training models with historical data using various data sources:
-
-- **MetaTrader5**:
-    - Trained model(s) using the MT5 API.
-
-- **Tiingo**:
-    - Trained model(s) using the Tiingo API.
-
-- **yfinance**:
-    - Trained model(s) using the yfinance API. -->
-
 ## Folder Structure
 
 - `indicators/`
