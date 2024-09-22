@@ -1,7 +1,6 @@
 # Capstone Project in Data Science / Artificial Intelligence
 #### ` Artificial Intelligence for Retail traders in High Frequency Algorithmic Trading`
 
----
 ## Beginner's Intoduction to Forex Trading
 #### The following recommended material is for complete beginners to learn about the basics of FOREX trading
 
@@ -12,7 +11,6 @@
    - Octa Broker. (2020). Forex Basics Course. Available at: [click here](https://www.youtube.com/playlist?list=PLwi9xUIQFHIwzGRYwdLpf35aKA29Zm3jW)
 
 
----
 
 ## Folder Structure
 
@@ -33,3 +31,6 @@
       - Trained model(s) using the Tiingo API.
     - `yfinance/`
       - Trained model(s) using the yfinance API.
+
+## Repository Structure and Submodules
+*This repository contains submodules that link to other Git repositories, which are used to manage sensitive information such (login credentials) separately. The submodules are stored in private repositories to ensure security. Access to the private repositories is stricly prohibited*

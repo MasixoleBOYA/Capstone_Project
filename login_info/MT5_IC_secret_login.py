@@ -5,22 +5,15 @@ class Secret_Login:
     password = '3BV82Vxw'
     email = 'tshollyboya00@gmail.com'
     
-
+_password = 'Masixole2024$'
+    
 # class IC_Markets_Login:
 #     trading_Platform = 'MT5'
-#     login = 51944578
-#     password = 'o&bCOUrc8jTHs8'
-#     server = 'ICMarketsSC-Demo'
+#     login = 51944494
+#     password = '@0p63lC@FWABrr'
+#     server = 'ICMarketsEU-Demo'
 
 #     ic_password = 'Masixole2024$'
-    
-class IC_Markets_Login:
-    trading_Platform = 'MT5'
-    login = 51944494
-    password = '@0p63lC@FWABrr'
-    server = 'ICMarketsEU-Demo'
-
-    ic_password = 'Masixole2024$'
     
 
 
@@ -30,3 +23,14 @@ class Wandb_Login:
 class OctaFx_Login:
     login = 213149427
     password = 'uAz&HW2e'
+
+
+    
+class IC_Markets_Login:
+    trading_Platform = 'MT5'
+    login = 51944578
+    password = '@0p63lC@FWABrr'
+    server = 'ICMarketsSC-Demo'
+
+    ic_password = 'Masixole2024$'
+
