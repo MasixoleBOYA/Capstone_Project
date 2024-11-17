@@ -24,13 +24,15 @@
   - This folder contains files for pulling real-time data using WebSockets in Python with the Tiingo API. More detailed information can be found in the folder.
 
 - `trainedModel_historical/`
-  - This folder contains files for training models with historical data using various data sources:
+  - This folder contains files for training models with historical data using various data sources. The MetaTrader5 is the main folder.:
     - `MetaTrader5/`
-      - Trained model(s) using the MT5 API.
+      - Main folder with the models used finally. Trained model(s) using the MT5 API.
+      - __Main file:__ 
+        - *mt5_model.ipynb*: Contains all model training code.
+      - __Other files:__ 
+        - the *.keras* are saved models.
+        - the *.txt* are saved outputs.     
     - `Tiingo/`
       - Trained model(s) using the Tiingo API.
     - `yfinance/`
       - Trained model(s) using the yfinance API.
-
-## Repository Structure and Submodules
-*This repository contains submodules that link to other Git repositories, which are used to manage sensitive information such (login credentials) separately. The submodules are stored in private repositories to ensure security. Access to the private repositories is stricly prohibited*
