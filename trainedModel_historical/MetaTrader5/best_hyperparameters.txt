@@ -1,0 +1,11 @@
+Best hyperparameters:
+num_layers: 5
+layer_units_0: 37
+layer_units_1: 32
+layer_units_2: 34
+layer_units_3: 35
+layer_units_4: 21
+activation: tanh
+epochs: 7
+dropout_rate: 0.3688289947501153
+learning_rate: 0.01128085357233952

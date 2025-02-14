@@ -1,40 +1,4 @@
-# import MetaTrader5 as mt5
-# from MT5_IC_secret_login import IC_Markets_Login
 
-# def login_to_mt5():
-#     """
-#     Logs into the MetaTrader5 platform using the IC Markets demo account credentials.
-    
-#     Returns:
-#         bool: True if the login is successful, False otherwise.
-#     """
-#     # Print current account info
-#     print(mt5.account_info().login)
-#     print(mt5.account_info().server)
-    
-#     # Retrieve login credentials
-#     temp = IC_Markets_Login()
-#     account = mt5.account_info().login
-#     password = temp.password
-#     server = mt5.account_info().server
-    
-  
-#     print(f"Account : {account}")
-#     print(f"Password : {password}")
-#     print(f"Server : {server}")
-    
-#     # Attempt to log in
-#     authorized = mt5.login(account, password, server)
-    
-
-#     if authorized:
-#         print(f"Connected to account #{account}")
-#         return True
-#     else:
-#         print(f"Failed to connect to account #{account}, error code: {mt5.last_error()}")
-#         return False
-
-#------------------------------------------------------------------------
 import MetaTrader5 as mt5
 import json
 
@@ -59,9 +23,9 @@ def login_to_mt5():
     password = ic_markets_login['password']
     server = ic_markets_login['server']
     
-    print(f"Account : {account}")
-    print(f"Password : {password}")
-    print(f"Server : {server}")
+    # print(f"Account : {account}")
+    # print(f"Password : {password}")
+    # print(f"Server : {server}")
     
     # Attempt to log in
     authorized = mt5.login(account, password, server)

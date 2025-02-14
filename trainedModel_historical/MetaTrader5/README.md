@@ -9,11 +9,11 @@ This folder contains resources and scripts for working with the MetaTrader 5 (MT
 
 This folder includes:
 
-- **`mt5_model.ipynb`**: The main Jupyter notebook used for training machine learning models based on data from MetaTrader 5. This notebook is central to developing and testing trading algorithms.
+- **`mt5_model.ipynb`**: The main Jupyter notebook used for training machine learning models based on data from MetaTrader 5.
 
-- **`mt5_trained_model.h5`**: A saved version of the trained model in HDF5 format. This model can be loaded and used for making predictions or further training.
+- **`.h5`**: A saved version of the trained model in HDF5 format. This model can be loaded and used for making predictions or further training.
 
-- **`mt5_trained_model.keras`**: A saved version of the trained model in Keras format. This model is used within Keras/TensorFlow for inference or additional training.
+- **`.keras`**: A saved version of the trained model in Keras format. This model is used within Keras/TensorFlow for inference or additional training.
 
 - **Other `.h5` files**: These files represent additional models used for experimentation. Each file may correspond to different versions or configurations of models trained during the development process.
 

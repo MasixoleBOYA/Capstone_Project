@@ -10,7 +10,16 @@
 #### - `Forex Basics Course`
    - Octa Broker. (2020). Forex Basics Course. Available at: [click here](https://www.youtube.com/playlist?list=PLwi9xUIQFHIwzGRYwdLpf35aKA29Zm3jW)
 
-
+## To go to the training file:
+- Go to __trainedModel_historical__ folder, then __MetaTrader5__, then __mt5_model.ipynb__ or __mt5_model.py__.  
+- Run the code in one of the following 3 ways:
+  1. Run the python file, which outputs on the terminal.
+  2. To use a notebook, run the code cell that starts after the `Start running from here on remote` section on the notebook.
+  3. Alternatively, satisfy the following conditions in order to call the data API:
+    - The `MT5 Terminal` desktop application must be installed
+    - Register with the `MC Markets` broker and login on the MT5 Terminal with your details
+    - Intergrate the code with your credentials.
+   
 
 ## Folder Structure
 
@@ -27,12 +36,13 @@
   - This folder contains files for training models with historical data using various data sources. The MetaTrader5 is the main folder.:
     - `MetaTrader5/`
       - Main folder with the models used finally. Trained model(s) using the MT5 API.
-      - __Main file:__ 
-        - *mt5_model.ipynb*: Contains all model training code.
-      - __Other files:__ 
-        - the *.keras* are saved models.
-        - the *.txt* are saved outputs.     
+
+        - *mt5_model.ipynb*: __Main file__ Contains all model training code.
+        - *.keras*: are saved models.
+        - *.txt*: are saved outputs.     
     - `Tiingo/`
       - Trained model(s) using the Tiingo API.
     - `yfinance/`
       - Trained model(s) using the yfinance API.
+
+
